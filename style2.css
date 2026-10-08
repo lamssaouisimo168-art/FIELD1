@@ -158,6 +158,7 @@ button:focus-visible {
 
 .en-tete {
   position: sticky;
+  width: 100%;
   top: 0;
   z-index: 10;
   background-color: #FFFFFF;
@@ -504,6 +505,7 @@ button:focus-visible {
 }
 
 .pied-de-page {
+  width: 100%;
   padding: 48px 0 32px;
   background-color: #0F1B2D;
   color: #FFFFFF;
@@ -553,8 +555,7 @@ button:focus-visible {
     background-color: orange;
     border-radius: 5px;
 }
-
-body {
-  background-color: #C2410C;
-
+.logo img{
+  width: 150px;
+  height: 80px;
 }
