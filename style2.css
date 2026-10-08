@@ -545,3 +545,16 @@ button:focus-visible {
   font-size: 13px;
   color: #94A3B8;
 }
+
+.lien-actif {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+body {
+  background-color: #C2410C;
+
+}
