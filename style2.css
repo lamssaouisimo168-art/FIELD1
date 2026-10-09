@@ -356,10 +356,12 @@ button:focus-visible {
 .apropos-image {
   flex: 5;
   min-width: 0;
-  height: 360px;
+  height: 400px;
   object-fit: cover;
   border-radius: 16px;
   box-shadow: 0 10px 25px rgba(15, 27, 45, 0.15);
+    animation: fadeIn 3s ease-in-out;
+  
 }
 
 .carte-programme {
@@ -425,6 +427,7 @@ button:focus-visible {
   font-size: 13px;
   font-weight: 600;
   color: #0F1B2D;
+  animation: fadeIn 3s ease-in-out;
 }
 
 .programme-corps h3 + p {
@@ -434,6 +437,7 @@ button:focus-visible {
 .duree img {
   width: 16px;
   height: 16px;
+  animation: fadeIn 3s ease-in-out;
 }
 
 .formules {
