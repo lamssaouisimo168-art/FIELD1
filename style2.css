@@ -609,4 +609,9 @@ button:focus-visible {
   70%  { box-shadow: 0 0 0 16px rgba(255, 59, 48, 0); }
   100% { box-shadow: 0 0 0 0 rgba(255, 59, 48, 0); }
 }
-
+button{
+  margin-bottom: 100px;
+}
+form{
+margin-top: 50px;
+}
